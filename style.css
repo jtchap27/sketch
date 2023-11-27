@@ -1,0 +1,28 @@
+.titleContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#title {
+  font-size: 36px;
+}
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.singleBox {
+  border: 1px dotted black;
+  box-sizing: border-box;
+}
