@@ -8,6 +8,17 @@
   font-size: 36px;
 }
 
+#newGridBtn,
+#hoverEffectBtnOn,
+#hoverEffectBtnOff {
+  font-size: 20px;
+}
+
+.newGridBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .gridContainer {
   display: flex;
   justify-content: center;
@@ -25,4 +36,9 @@
 .singleBox {
   border: 1px dotted black;
   box-sizing: border-box;
+}
+
+.hoverEffectBtnContainer {
+  display: flex;
+  justify-content: center;
 }
